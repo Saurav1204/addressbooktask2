@@ -1,0 +1,106 @@
+
+body {
+    /* background-image: url("wallpaper2you_461362.jpeg"); */
+    background-color: rgb(234, 229, 229);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(70, 151, 221);
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Brush Script MV';
+    font-size: 60px;
+    text-shadow: 4px 4px 4px #476062;
+    border-bottom-style: solid;
+    border-bottom-width:10px ;
+    border-color: #389892ef;
+    border-radius: 60%;
+    margin-left:30% ;
+    margin-right:30% ;
+  }
+  
+.container {
+
+    border: 2px solid rgb(5, 4, 4);
+    border-radius: 5%;
+    /* Set container background color */
+    padding: 40px;
+    /* Add padding to the container */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 45%;
+    background-color: rgba(255, 115, 0, 0.725);
+}
+
+form {
+    display:grid;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+form label {
+    color: #000000;
+    font-size: 25px;
+    font-family: Garamond, serif;
+    font-style: solid;
+    align-items: center;
+    
+  }
+  label {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: auto;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 3px solid #23870a;
+  }
+
+  input:hover,
+  select:hover,
+  textarea:hover{
+    box-shadow: 8px 8px 4px #fffefe7b;
+  }
+
+
+#adddata{
+    width: 70%;
+    font-size: 20px;
+    font-weight:800;
+    margin-top: 2%;
+  }
+
+
+header nav {
+    display: flex;
+    gap: 16px;
+    justify-content:flex-start;
+    margin: 1%;  
+    border-bottom: 2px solid;
+    border-color: rgb(3, 125, 247);
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  header nav a{
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  header nav a.active{
+      background: rgba(249, 92, 1, 0.755);
+      border-radius: 15%;
+  }
+  

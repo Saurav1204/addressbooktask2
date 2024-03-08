@@ -1,0 +1,65 @@
+.modal{
+  display: block;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 2%;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color: rgb(3, 2, 2);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f3eded;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #f96d02d3;
+    color: white;
+  }
+  
+  .modalhead{
+    padding: 2px 16px;
+    border-bottom: 2px solid rgb(98, 174, 54);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+  #editForm{
+    padding: 2%;
+  }
+  
+  #myBtn{
+    margin-right: 10px;
+  }
+
+
+
+
+
+  

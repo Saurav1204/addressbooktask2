@@ -1,0 +1,29 @@
+
+body {
+    /* background-image: url("wallpaper2you_461362.jpeg"); */
+    background-color: rgb(234, 229, 229);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 100%;
+    margin-top: 100px;
+    border-collapse: collapse;
+    position: relative;
+  }
+  
+  table th {
+    background-color: rgba(249, 67, 1, 0.683);
+  }
+
+  table th,
+  table td {
+    padding: 12px;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
